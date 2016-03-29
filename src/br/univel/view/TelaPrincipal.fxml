@@ -7,6 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
 
@@ -35,9 +36,14 @@
                         <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
                      </children>
                   </GridPane>
-                  <Button layoutX="367.0" layoutY="101.0" mnemonicParsing="false" text="Salvar" />
-                  <Button layoutX="429.0" layoutY="101.0" mnemonicParsing="false" text="Excluir" />
-                  <Button layoutX="492.0" layoutY="101.0" mnemonicParsing="false" text="Limpar" />
+                  <HBox layoutX="367.0" layoutY="101.0" spacing="15.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Salvar" />
+                        <Button mnemonicParsing="false" text="Excluir" />
+                        <Button mnemonicParsing="false" text="Limpar" />
+                     </children>
+                  </HBox>
+                  <Button layoutX="22.0" layoutY="101.0" mnemonicParsing="false" text="Novo" />
                </children>
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
